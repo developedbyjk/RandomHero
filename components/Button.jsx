@@ -5,6 +5,8 @@ import namesList from "../data/namesList"
 export default function Button({ setCharacterData }) {
 	function toggle() {
 		setCharacterData((prevData) => {
+
+
 			function genRanNum(max) {
 				return Math.floor(Math.random() * max)
 			}
